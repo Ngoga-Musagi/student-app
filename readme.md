@@ -42,35 +42,27 @@ A simple and efficient Student Management REST API built using **FastAPI** and *
 ### 🔹 POST `/students`
 
 {
-  "name": "Ngoga Alexis",
-  "age": 25,
+  "name": "Ng",
+  "age": 100,
   "email": "alexis@example.com"
 }
 
 ## Step 1: Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/student-crud-app.git
 cd student-crud-app
 
 # Step 2: Create and activate virtual environment
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate      # For Windows: venv\Scripts\activate
 
 # Step 3: Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 
 # Step 4: Run the FastAPI server
-bash
-Copy
-Edit
+
 uvicorn main:app --reload
 
 # Step 5: Access the API Docs
